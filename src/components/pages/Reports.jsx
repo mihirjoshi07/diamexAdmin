@@ -49,7 +49,7 @@ export default function Reports() {
   useEffect(() => {
     const fetchReports = async () => {
       try {
-        const response = await fetch('http://localhost:3000/admin/reports', {
+        const response = await fetch('http://13.232.5.203:3000/admin/reports', {
           method: 'GET',
           credentials: 'include',
           headers: {
@@ -112,7 +112,7 @@ export default function Reports() {
     // Send PUT request to update the status
     try {
       console.log(newRow.id)
-      const response = await fetch(`http://localhost:3000/admin/resolve-report/${newRow.id}`, {
+      const response = await fetch(`http://13.232.5.203:3000/admin/resolve-report/${newRow.id}`, {
         method: 'PUT',
         credentials: 'include',
         headers: {
