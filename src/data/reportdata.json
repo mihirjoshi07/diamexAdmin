@@ -1,0 +1,62 @@
+[
+    {
+        "id": "rpt001",
+        "userId": "user_001",
+        "reportedUserId": "user_002",
+        "reportDescription": "Inappropriate behavior in chat."
+    },
+    {
+        "id": "rpt002",
+        "userId": "user_003",
+        "reportedUserId": "user_004",
+        "reportDescription": "Spam messages in group."
+    },
+    {
+        "id": "rpt003",
+        "userId": "user_005",
+        "reportedUserId": "user_006",
+        "reportDescription": "Harassment towards another user."
+    },
+    {
+        "id": "rpt004",
+        "userId": "user_007",
+        "reportedUserId": "user_008",
+        "reportDescription": "Sharing personal information without consent."
+    },
+    {
+        "id": "rpt005",
+        "userId": "user_009",
+        "reportedUserId": "user_010",
+        "reportDescription": "Offensive language used in comments."
+    },
+    {
+        "id": "rpt006",
+        "userId": "user_011",
+        "reportedUserId": "user_012",
+        "reportDescription": "Impersonating another user."
+    },
+    {
+        "id": "rpt007",
+        "userId": "user_013",
+        "reportedUserId": "user_014",
+        "reportDescription": "Posting harmful content."
+    },
+    {
+        "id": "rpt008",
+        "userId": "user_015",
+        "reportedUserId": "user_016",
+        "reportDescription": "Violation of community guidelines."
+    },
+    {
+        "id": "rpt009",
+        "userId": "user_017",
+        "reportedUserId": "user_018",
+        "reportDescription": "Repeated spamming in messages."
+    },
+    {
+        "id": "rpt010",
+        "userId": "user_019",
+        "reportedUserId": "user_020",
+        "reportDescription": "Discrimination based on race."
+    }
+]
