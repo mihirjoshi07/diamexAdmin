@@ -50,7 +50,7 @@ export default function Feedback() {
   useEffect(() => {
     const fetchFeedbacks = async () => {
       try {
-        const response = await axios.get('http://13.232.5.203:3000/admin/feedbacks', {
+        const response = await axios.get('http://13.126.11.73:3000/admin/feedbacks', {
           withCredentials: true,
           headers: {
             'Content-Type': 'application/json',
@@ -107,7 +107,7 @@ export default function Feedback() {
 
     // Update status on backend
     try {
-      const response = await axios.put(`http://13.232.5.203:3000/admin/resolve-feedback/${newRow.id}`, {
+      const response = await axios.put(`http://13.126.11.73:3000/admin/resolve-feedback/${newRow.id}`, {
         status: newRow.status,
       }, {
         withCredentials: true, // Ensure credentials are sent
