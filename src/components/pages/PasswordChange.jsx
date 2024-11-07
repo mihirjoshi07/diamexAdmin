@@ -96,7 +96,7 @@ const PasswordChange = () => {
         setErrors({}); // Clear any existing errors
 
         try {
-            const response = await fetch("http://3.110.108.114:3000/admin/change-password", {
+            const response = await fetch("http://13.235.134.187:3000/admin/change-password", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
