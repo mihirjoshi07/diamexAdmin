@@ -123,7 +123,7 @@ const App = () => {
   // Handle logout API call
   const handleLogout = async () => {
     try {
-      const response = await fetch('http://13.126.11.73:3000/admin/logout', {
+      const response = await fetch('http://3.110.108.114:3000/admin/logout', {
         method: 'GET',
         credentials: 'include',
       });
