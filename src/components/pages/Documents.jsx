@@ -50,7 +50,7 @@ export default function Documents() {
     // Fetch data from the API
     const fetchDocuments = async () => {
       try {
-        const response = await fetch('http://13.232.5.203:3000/admin/documents', {
+        const response = await fetch('http://13.126.11.73:3000/admin/documents', {
           method: 'GET',
           credentials: 'include',
           headers: {
@@ -114,7 +114,7 @@ export default function Documents() {
 
     // Make API call to update the verification status
     try {
-      const response = await fetch(`http://13.232.5.203:3000/admin/change-status/${newRow.userId}`, {
+      const response = await fetch(`http://13.126.11.73:3000/admin/change-status/${newRow.userId}`, {
         method: 'PUT',
         credentials: 'include',
         headers: {
