@@ -162,7 +162,7 @@ export default function OTPInput() {
 
     const handleSubmit = async () => {
         try {
-            const response = await fetch('http://13.235.134.187:3000/admin/validateOtp', {
+            const response = await fetch('http://52.66.210.195:3000/admin/validateOtp', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
