@@ -47,7 +47,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://13.235.134.187:3000/admin/users', {
+        const response = await axios.get('http://52.66.210.195:3000/admin/users', {
           withCredentials: true,
           headers: {
             'Content-Type': 'application/json',
