@@ -61,7 +61,7 @@ export default function Advertisement() {
         setIsLoading(true); // Set loading state to true before the request starts
 
         try {
-            const response = await fetch('http://13.235.134.187:3000/admin/AddAdvertisement', {
+            const response = await fetch('http://52.66.210.195:3000/admin/AddAdvertisement', {
                 method: 'POST',
                 body: formData,
                 credentials: 'include' // Include credentials to send cookies
