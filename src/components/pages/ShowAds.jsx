@@ -50,7 +50,7 @@ export default function ShowAds() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://13.235.134.187:3000/admin/showAds', {
+                const response = await fetch('http://52.66.210.195:3000/admin/showAds', {
                     method: 'GET',
                     credentials: 'include',
                 });
@@ -87,7 +87,7 @@ export default function ShowAds() {
 
     const handleDeleteImage = async () => {
         try {
-            const response = await fetch(`http://13.235.134.187:3000/admin/remove-ads/${selectedAdId}`, {
+            const response = await fetch(`http://52.66.210.195:3000/admin/remove-ads/${selectedAdId}`, {
                 method: 'DELETE',
                 credentials: 'include',
                 headers: { 'Content-Type': 'application/json' },
@@ -121,7 +121,7 @@ export default function ShowAds() {
         const confirmDelete = window.confirm('Are you sure you want to delete this advertisement?');
         if (confirmDelete) {
             try {
-                const response = await fetch(`http://13.235.134.187:3000/admin/deleteAd/${id}`, {
+                const response = await fetch(`http://52.66.210.195:3000/admin/deleteAd/${id}`, {
                     method: 'DELETE',
                     credentials: 'include',
                     headers: { 'Content-Type': 'application/json' },
