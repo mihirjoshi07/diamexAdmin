@@ -19,7 +19,7 @@ export default function Login() {
     const password = formData.get('password');
 
     try {
-      const response = await fetch('http://13.235.134.187:3000/admin/login', {
+      const response = await fetch('http://52.66.210.195:3000/admin/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ export default function Login() {
   const handleResetPassword = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://13.235.134.187:3000/admin/resetPassword', {
+      const response = await fetch('http://52.66.210.195:3000/admin/resetPassword', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
